@@ -1,0 +1,405 @@
+[
+    {
+        "name":"Blim TV",
+        "month_price":109,
+        "membership1":[
+            {
+                "name":"1 mes",
+                "price": 109,
+                "devices":"ilimitado"
+            }
+        ],
+	"membership2":[
+            {
+                "name":"6 meses",
+                "price": 549,
+                "devices":"ilimitado"
+            }
+        ],  
+	"membership3":[
+            {
+                "name":"12 meses",
+                "price": 999,
+                "devices":"ilimitado"
+            }
+        ], 
+        "free_trial":30,
+        "contact":"ayuda@blim.com",
+        "company":"Televisa Inc",
+        "link":"https://www.blim.com/inicio"
+    },
+    {
+        "name":"YouTube Premium",
+        "month_price":119,
+        "membership1":[
+            {
+                "name":"Plan Basico (1 Mes)",
+                "price": 119,
+                "devices":1
+            }
+        ], 
+	"membership2":[
+            {
+                "name":"Plan Familiar (1 Mes)",
+                "price": 179,
+                "devices":5
+            }
+        ], 	
+	"membership3":[
+            {
+                "name":"Plan Estudiante (1 Mes)",
+                "price": 69,
+                "devices":1
+            }
+        ], 
+        "free_trial":30,
+        "contact":"https://support.google.com/youtube/?hl=es",
+        "company":"Google Inc.",
+        "link":"https://www.youtube.com/premium"
+    },
+    {
+        "name":"Plataforma Cine",
+        "month_price":0,
+        "membership":[
+            {
+                "name":"Renta de peliculas",
+                "price": 25,
+                "devices":1
+            }
+        ], 
+        "free_trial":30,
+        "contact":"plataformacinemx@gmail.com",
+        "company":"Plataforma Cine",
+        "link":"https://www.plataformacine.com/index.html"
+    },
+    {
+        "name":"Casa Caníbal",
+        "month_price":0,
+        "membership1":[
+            {
+                "name":"Renta de peliculas",
+                "price": 25,
+                "devices":1
+            }
+        ], 
+	"membership2":[
+            {
+                "name":"Compra de peliculas",
+                "price": 88,
+                "devices":1
+            }
+        ], 
+        "free_trial":30,
+        "contact":"https://www.mowies.com/site/es/soporte-2/",
+        "company":"Mowies Inc",
+        "link":"https://casacanibal.mowies.com/"
+    },
+    {
+        "name":"Star+",
+        "month_price":249,
+        "membership1":[
+            {
+                "name":"Combo Diney+ y Star+ (1 mes)",
+                "price": 249,
+                "devices":1
+            }
+        ], 
+        "membership2":[
+            {
+                "name":"Plan básico (1 mes)",
+                "price": 199,
+                "devices":1
+            }
+        ], 
+        "membership3":[
+            {
+                "name":"Plan anual (12 meses)",
+                "price": 1999,
+                "devices":1
+            }
+        ], 
+        "free_trial":30,
+        "contact":"https://help.starplus.com/starplus_hc ",
+        "company":"Disney Inc",
+        "link":"https://www.starplus.com/es-mx"
+    },
+    {
+        "name":"Filmin Latino",
+        "month_price":69,
+        "membership1":[
+            {
+                "name":"Plan de 1 mes",
+                "price": 69,
+                "devices":"ilimitado"
+            }
+        ], 
+	"membership2":[
+            {
+                "name":"Plan de 6 meses",
+                "price": 390,
+                "devices":"ilimitado"
+            }
+        ], 
+        "free_trial":30,
+        "contact":"contacto@filminlatino.mx",
+        "company":"IMCINE",
+        "link":"https://www.filminlatino.mx/"
+    },
+    {
+        "name":"Apple TV+",
+        "month_price":69,
+        "membership1":[
+            {
+                "name":"Plan gratuito (3 meses) en la compra de un dispositivo Apple",
+                "price": 0,
+                "devices":1
+            }
+        ], 
+	"membership2":[
+            {
+                "name":"Plan básico (1 mes)",
+                "price": 69,
+                "devices":1
+            }
+        ], 
+        "free_trial":30,
+        "contact":"https://www.apple.com/mx/contact/",
+        "company":"Apple",
+        "link":"https://www.apple.com/mx/apple-tv-plus/"
+    },
+    {
+        "name":"Paramount+",
+        "month_price":79,
+        "membership":[
+            {
+                "name":"Plan Básico (1 Mes)",
+                "price": 79,
+                "devices":1
+            }
+        ], 
+        "free_trial":30,
+        "contact":"https://support.paramountplus.com/s/?language=es_MX",
+        "company":"Paramount",
+        "link":"https://www.paramountplus.com/mx/"
+    },
+    {
+        "name":"Claro Video",
+        "month_price":99,
+        "membership1":[
+            {
+                "name":"Plan Básico (1 Mes)",
+                "price": 99,
+                "devices":1
+            }
+        ], 
+        "membership2":[
+            {
+                "name":"Renta de algún título",
+                "price": 49,
+                "devices":1
+            }
+        ], 
+        "membership3":[
+            {
+                "name":"Compra de algún título",
+                "price": 99,
+                "devices":"ilimitado"
+            }
+        ], 
+        "membership4":[
+            {
+                "name":"Plan anual",
+                "price": 1149,
+                "devices":3
+            }
+        ], 
+        "free_trial":30,
+        "contact":"800 252 9999",
+        "company":"DLA Inc",
+        "link":"https://www.clarovideo.com/"
+    },
+    {
+        "name":"Cinépolis Klic",
+        "month_price":0,
+        "membership1":[
+            {
+                "name":"Renta de peliculas (precio mínimo)",
+                "price": 25,
+                "devices":"ilimitado"
+            }
+        ], 
+        "membership2":[
+            {
+                "name":"Compra de peliculas (precio mínimo)",
+                "price": 80,
+                "devices":"ilimitado"
+            }
+        ], 
+        "free_trial":0,
+        "contact":"ayudaklic@cinepolis.com",
+        "company":"Cinépolis",
+        "link":"https://www.cinepolisklic.com/"
+    },
+    {
+        "name":"Disney+",
+        "month_price":159,
+        "membership1":[
+            {
+                "name":"Plan básico",
+                "price": 159,
+                "devices":4
+            }
+        ], 
+        "membership2":[
+            {
+                "name":"Plan Anual",
+                "price": 1599,
+                "devices":4
+            }
+        ], 
+        "free_trial":0,
+        "contact":"800 600 828",
+        "company":"Disney",
+        "link":"https://www.disneyplus.com/"
+    },
+    {
+        "name":"Netflix",
+        "img":"assets/img/Netflix_Logo_RGB.png",
+        "month_price":129,
+        "membership1":[
+            {
+                "name":"Plan básico (1 mes)",
+                "price": 139,
+                "devices":1
+            }
+        ], 
+        "membership2":[
+            {
+                "name":"Plan Estándar (1 mes)",
+                "price": 219,
+                "devices":2
+            }
+        ], 
+        "membership3":[
+            {
+                "name":"Plan Premium (1 mes)",
+                "price": 299,
+                "devices":4
+            }
+        ], 
+        "free_trial":7,
+        "contact":"800 522 9957",
+        "company":"Netflix",
+        "link":"https://www.netflix.com/mx/"
+    },
+    {
+        "name":"HBO Max",
+        "month_price":99,
+        "membership1":[
+            {
+                "name":"Plan estándar (1 mes)",
+                "price": 149,
+                "devices":5
+            }
+        ], 
+        "membership2":[
+            {
+                "name":"Plan móvil (1 mes)",
+                "price": 99,
+                "devices":1
+            }
+        ], 
+        "free_trial":0,
+        "contact":"https://help.hbomax.com/mx",
+        "company":"AT&T",
+        "link":"https://www.hbomax.com/mx/es"
+    },
+    {
+        "name":"Mubi",
+        "month_price":99,
+        "membership1":[
+            {
+                "name":"Plan básico (1 mes)",
+                "price": 129,
+                "devices":"ilimitado"
+            }
+        ], 
+        "membership2":[
+            {
+                "name":"Plan anual (12 mes)",
+                "price": 948,
+                "devices":"ilimitado"
+            }
+        ], 
+        "membership3":[
+            {
+                "name":"Plan estudiantil (1 mes)",
+                "price": 79,
+                "devices":"ilimtado"
+            }
+        ], 
+        "free_trial":7,
+        "contact":"support@mubi.com",
+        "company":"Mubi",
+        "link":"https://mubi.com/es"
+    },
+    {
+        "name":"Amazon Prime Video",
+        "month_price":99,
+        "membership1":[
+            {
+                "name":"Plan básico (1 mes)",
+                "price": 99,
+                "devices":1
+            }
+        ], 
+        "membership2":[
+            {
+                "name":"Plan anual (12 mes)",
+                "price": 899,
+                "devices":1
+            }
+        ], 
+        "free_trial":30,
+        "contact":"https://www.primevideo.com/help/",
+        "company":"Amazon",
+        "link":"https://www.primevideo.com/"
+    },
+    {
+        "name":"Curiosity Stream",
+        "month_price":20,
+        "membership1":[
+            {
+                "name":"Plan básico (1 mes)",
+                "price": 20,
+                "devices":"ilimitado"
+            }
+        ], 
+        "membership2":[
+            {
+                "name":"Plan anual HD (12 mes)",
+                "price": 240,
+                "devices":"ilimitado"
+            }
+        ], 
+        "membership3":[
+            {
+                "name":"Plan anual 4K (12 mes)",
+                "price": 849,
+                "devices":"ilimitado"
+            }
+        ],
+        "membership4":[
+            {
+                "name":"Plan de por vida",
+                "price": 3099,
+                "devices":"ilimitado"
+            }
+        ],
+        "free_trial":0,
+        "contact":"help@CuriosityStream.com",
+        "company":"Discovery Channel",
+        "link":"https://curiositystream.com/"
+    }
+	
+]
