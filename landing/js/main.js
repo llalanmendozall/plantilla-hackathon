@@ -36,7 +36,7 @@ fetch('../services.json',{
               
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item">Precio mensual: ${servicio.month_price}</li>
+                <li class="list-group-item">Precio mensual: $${servicio.month_price} MXN</li>
                 <li class="list-group-item">Prueba gratis: ${servicio.free_trial}</li>
                 <li class="list-group-item">A third item</li>
               </ul>
