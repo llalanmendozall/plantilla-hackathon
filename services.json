@@ -59,7 +59,7 @@
     {
         "id":3,
         "name":"Plataforma Cine",
-        "img":"assets/img/Plataforma cine.jpg",
+        "img":"assets/img/Plataforma_cine.jpg",
         "type":"video",
         "description":"Plataforma Cine es una nueva opción dedicada a la oferta de producciones cinematográficas nacionales o internacionales, vía un servicio streaming en la modalidad de RENTA y ofrecera además un canal para disfruta eventos en vivo  o pregrabados. Todo lo del cine y la industria cinematográfica.",
         "month_price":0,
@@ -414,6 +414,98 @@
         "contact":"help@CuriosityStream.com",
         "company":"Discovery Channel",
         "link":"https://curiositystream.com/"
-    }
+    },
+    {
+        "id":17,
+        "name":"Xbox Game Pass",
+        "img":"assets/img/xbox-game-pass-logo.png",
+        "type":"videojuegos",
+        "description": "Sumérgete en una biblioteca de más de 100 juegos de alta calidad. Disfruta de los beneficios de Xbox Live Gold y EA Play, y juega en varios dispositivos desde la nube cuando te unas a Xbox Game Pass Ultimate.",
+        "month_price":149,
+        "membership":[
+            {
+                "name":"Ultimate",
+                "price": 229,
+                "devices":"ilimitado"
+            },
+            {
+                "name":"Consola",
+                "price": 149,
+                "devices":"ilimitado"
+            },
+            {
+                "name":"PC",
+                "price": 149,
+                "devices":"ilimitado"
+            }
+        ],
+        "free_trial":0,
+        "contact":"https://support.xbox.com/es-MX/?xr=footnav",
+        "company":"Microsoft",
+        "link":"https://www.xbox.com/es-MX/xbox-game-pass#join"
+    },
+    {
+        "id":16,
+        "name":"Spotify",
+        "img":"assets/img/spotify.jpg",
+        "type":"music",
+        "description": "Disfruta de música sin anuncios, reproducción en modo offline y mucho más. Cancela cuando quieras.",
+        "month_price":15,
+        "membership":[
+        {
+        "name":"Spotify Free",
+        "price": 0,
+        "devices":"ilimitado"
+        },
+        {
+        "name":"Individual (1 mes)",
+        "price": 115,
+        "devices":"ilimitado"
+        },
+        {
+        "name":"Duo ( 1 mes)",
+        "price": 149,
+        "devices":"2"
+        },
+        {
+        "name":"Familiar",
+        "price": 179,
+        "devices":"6"
+        },
+        {
+        "name":"Estudiantes",
+        "price": 57,
+        "devices":"1"
+        }
+        ],
+        "free_trial":90,
+        "contact":"https://support.spotify.com/mx/",
+        "company":"Spotify",
+        "link":"https://www.spotify.com/mx/"
+        },
+        {
+        "id":16,
+        "name":"Deezer",
+        "img":"assets/img/deezer.jpg",
+        "type":"music",
+        "description": "Reproduce lo que te apetezca, salta canciones sin límites y crea tu propia colección de música, podcasts y mucho más.Escucha tu contenido de audio favorito en streaming sin interrupciones de anuncios.Descarga tu música y podcasts y escúchalo sin conexión. Identifica canciones o canta tus canciones favoritas gracias a funciones incorporadas como SongCatcher y las letras.",
+        "month_price":115,
+        "membership":[
+        {
+        "name":"Deezer Premium",
+        "price": 115,
+        "devices":"ilimitado"
+        },
+        {
+        "name":"Anual (12 meses)",
+        "price": 115,
+        "devices":"ilimitado"
+        }
+        ],
+        "free_trial":30,
+        "contact":"https://es.deezercommunity.com/",
+        "company":"Insided",
+        "link":"https://www.deezer.com/es/offers/premium"
+        }
     
 ]

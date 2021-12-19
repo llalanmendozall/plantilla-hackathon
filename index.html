@@ -21,14 +21,14 @@
     <title>Comparador</title>
   </head>
   <body>
-    <main>
+    <main class="bg-light">
       <!-- princpal  banner-->
-      <section class="container-fluid bg-dark">
+      <section class="container-fluid">
         <div class="row p-5 main-banner">
           <div class="col-md-6 d-flex align-items-center">
             <div class="title text-white">
               <h1 class="display-3">¿No sabes que contratar?</h1>
-              <h3>
+              <h3 class="subtitle">
                 Echa un vistazo a los Servicios de Streaming que más se acomode
                 a tus necesidades y bolsillo.
               </h3>
@@ -48,14 +48,56 @@
         <div class="title text-center">
           <h2>Servicios de Streaming</h2>
         </div>
+     
+        <div class="list-group list-group-horizontal text-center m-5 category" id="category">
+
+          <button
+            href="#"
+            class="list-group-item list-group-item-action category_item"
+            id="category_item"
+            category="all"
+            >Todos</button
+          >
+          <button
+            href="#"
+            class="list-group-item list-group-item-action  category_item"
+            id="category_item"
+            category="video"
+            >Video</button
+          >
+          <button
+            href="#"
+            class="list-group-item list-group-item-action  category_item"
+            id="category_item"
+            category="music"
+            >Musica</button
+          >
+          <button
+            href="#"
+            class="list-group-item list-group-item-action  category_item"
+            id="category_item"
+            category="videojuegos"
+            >Videojuegos</button
+          >
+        </div>
         <div class="card-wrapper">
           <div class="container mt-4">
             <div class="row" id="container-services"></div>
           </div>
         </div>
       </section>
+      <div class="container-fluid mt-5 px-0">
+        <footer class="bg-dark text-white">
+          <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+          >
+            © 2021 Copyright:
+            <a class="text-white" href="#">Hack-Engineers​ </a>
+          </div>
+        </footer>
+      </div>
     </main>
-    bs5-foote
   </body>
   <script src="js/main.js"></script>
   <script
