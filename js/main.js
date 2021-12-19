@@ -13,7 +13,7 @@ fetch('../services.json',{
         template += 
     `<div class="col-sm-12 col-md-4 my-4">
         <div class="card h-100">
-            <img src="${servicio.img}" class="card-img-top" alt="...">
+            <img src="${servicio.img}" class="card-img-top h-25" alt="${servicio.name} logo">
             <div class="card-body">
               <h5 class="card-title">${servicio.name}</h5>
               <p class="card-text " id="description">${servicio.description}</p>
