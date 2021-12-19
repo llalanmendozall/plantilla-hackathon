@@ -2,6 +2,7 @@
     {   "id":1,
         "name":"Blim TV",
         "img":"assets/img/blim.png",
+        "type":"video",
         "description":"Blim TV es un servicio por suscripción a la carta en streaming de vídeo bajo demanda mexicana, ofrecido en línea por Televisa mediante una conexión vía internet.También ofrece más de 30 canales en vivo de noticias, deportes, música, películas y más. Servicio disponible en México únicamente.",
         "month_price":109,
         "membership":[
@@ -30,6 +31,7 @@
         "id":2,
         "name":"YouTube Premium",
         "img":"assets/img/ytp.png",
+        "type":"video",
         "description":"YouTube Premium (anteriormente YouTube Red) es un servicio de suscripción de transmisión de pago para YouTube que proporciona transmisión sin publicidad de todos los vídeos alojados en YouTube, contenido original exclusivo producido en colaboración con los principales creadores del sitio, así como reproducción sin conexión y reproducción de videos de fondo en dispositivos móviles.",
         "month_price":119,
         "membership":[
@@ -58,6 +60,7 @@
         "id":3,
         "name":"Plataforma Cine",
         "img":"assets/img/Plataforma cine.jpg",
+        "type":"video",
         "description":"Plataforma Cine es una nueva opción dedicada a la oferta de producciones cinematográficas nacionales o internacionales, vía un servicio streaming en la modalidad de RENTA y ofrecera además un canal para disfruta eventos en vivo  o pregrabados. Todo lo del cine y la industria cinematográfica.",
         "month_price":0,
         "membership":[
@@ -75,6 +78,7 @@
     {   "id":4,
         "name":"Casa Caníbal",
         "img":"assets/img/cc-logo-g.svg",
+        "type":"video",
         "description":"Casa Caníbal es un espacio para la experimentación y la creación colectiva y colaborativa, un lugar de encuentro, de activación, de intercambio y de debate, de cuestionamientos sobre las ideas, procesos y metodologías, un espacio doméstico y colectivo a la vez.",
         "month_price":0,
         "membership":[
@@ -98,6 +102,7 @@
         "id":5,
         "name":"Star+",
         "img":"assets/img/Star+.png",
+        "type":"video",
         "description":"Star+ es un servicio de streaming propiedad de The Walt Disney Company. Fue lanzado el 31 de agosto del 2021 y se encuentra disponible para Latinoamérica.",
         "month_price":249,
         "membership":[
@@ -126,6 +131,7 @@
         "id":6,
         "name":"Filmin Latino",
         "img":"assets/img/Filmin Latino.jpg",
+        "type":"video",
         "description":"En FilminLatino ofrecen un amplio catálogo de largometrajes de ficción, documentales, clásicos, cortometrajes, series, y películas para niños. Las películas solo se pueden ver en territorio mexicano.",
         "month_price":69,
         "membership":[
@@ -148,7 +154,8 @@
     {   "id":7,
         "name":"Apple TV+",
         "img":"assets/img/Apple TV+.png",
-        "description":"Apple TV+ es un servicio OTT de televisión web de vídeo bajo demanda por suscripción sin publicidad anunciado por Apple Inc. que debutó el 1 de noviembre de 2019.​ Fue anunciado durante su Evento especial de Apple del 25 de marzo en el Steve Jobs Theatre.",
+        "type":"video",
+        "description":"Apple TV+ es un servicio OTT de televisión web de vídeo bajo demanda por suscripción sin publicidad anunciado por Apple Inc. que debutó el 1 de noviembre de 2019.Fue anunciado durante su Evento especial de Apple del 25 de marzo en el Steve Jobs Theatre.",
         "month_price":69,
         "membership":[
             {
@@ -171,6 +178,7 @@
         "id":8,
         "name":"Paramount+",
         "img":"assets/img/Paramount+.png",
+        "type":"video",
         "description":"Paramount+ es un servicio de suscripción de video a la carta en streaming propiedad y operado por ViacomCBS Streaming, una filial de ViacomCBS. Ofrece contenido original, contenido recién emitido en las propiedades de transmisión de CBS y contenido de la biblioteca ViacomCBS.",
         "month_price":79,
         "membership":[
@@ -189,6 +197,7 @@
         "id":9,
         "name":"Claro Video",
         "img":"assets/img/Claro Video.jpg",
+        "type":"video",
         "description":"Claro Video es una plataforma de streaming que ofrece un servicio de suscripción de video bajo demanda, propiedad de América Móvil y desarrollada por DLA Inc., y que está disponible en 14 países latinoamericanos.",
         "month_price":99,
         "membership":[
@@ -222,6 +231,7 @@
         "id":10,
         "name":"Cinépolis Klic",
         "img":"assets/img/Cinépolis Klic.jpg",
+        "type":"video",
         "description":"Cinépolis KLIC es una plataforma de video vía streaming para que puedas ver tus películas favoritas en todo tipo de dispositivos. Es como un verdadero sistema de cine en casa, el lugar a donde llegan los filmes más populares poco tiempo después de haber estado en la pantalla grande.",
         "month_price":0,
         "membership":[
@@ -245,6 +255,7 @@
         "id":11,
         "name":"Disney+",
         "img":"assets/img/Disney+.svg",
+        "type":"video",
         "description": "Disney+ es una plataforma streaming propiedad de la división de Distribución de Medios y Entretenimiento de The Walt Disney Company y gestionado por la misma.", 
         "month_price":159,
         "membership":[
@@ -268,6 +279,7 @@
         "id":12,
         "name":"Netflix",
         "img":"assets/img/Netflix_Logo_RGB.png",
+        "type":"video",
         "description": "Netflix, Inc. es una empresa de entretenimiento y un servicio por suscripción a la carta en streaming estadounidense que opera a nivel mundial y cuyo servicio principal es la distribución de contenidos audiovisuales a través de una plataforma en línea o servicio de video bajo demanda por streaming.",
         "month_price":129,
         "membership":[
@@ -296,6 +308,7 @@
         "id":13,
         "name":"HBO Max",
         "img":"assets/img/HBO Max.jpg",
+        "type":"video",
         "description": "HBO Max es un servicio de streaming propiedad de WarnerMedia, una división de AT&T. Se lanzó en Estados Unidos el 27 de mayo de 2020, en América Latina y el Caribe el 29 de junio de 2021 y en Andorra, España y los países nórdicos el 26 de octubre de 2021.",
         "month_price":99,
         "membership":[
@@ -319,6 +332,7 @@
         "id":14,
         "name":"Mubi",
         "img":"assets/img/Mubi.png",
+        "type":"video",
         "description": "MUBI es un distribuidor, productor y servicio de streaming basado en la suscripción que ofrece una selección curada de películas.​ MUBI también alberga una base de datos de la industria cinematográfica y una revista en línea llamada La Libreta. MUBI tiene una colección de películas en constante rotación.",
         "month_price":99,
         "membership":[
@@ -347,6 +361,7 @@
         "id":15,
         "name":"Amazon Prime Video",
         "img":"assets/img/Amazon Prime Video.jpg",
+        "type":"video",
         "description": "Amazon Prime Video, también comercializado como Prime Video, es un servicio de suscripción de video a la carta en streaming, disponible en retransmisión en directo, creado y gestionado por Amazon. La plataforma ofrece miles de títulos sin coste adicional a la afiliación mensual o anual a Prime Video.",
         "month_price":99,
         "membership":[
@@ -370,6 +385,7 @@
         "id":16,
         "name":"Curiosity Stream",
         "img":"assets/img/Curiosity Stream.jpg",
+        "type":"video",
         "description": "CuriosityStream es un servicio de transmisión de video bajo demanda de documentales por suscripción estadounidense. Entrega exclusivamente documentales y series de no-ficción sobre ciencia, tecnología, historia y naturaleza.​",
         "month_price":20,
         "membership":[
