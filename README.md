@@ -6,6 +6,7 @@
 
 ### TCO (costo total de propiedad)
 - Costo total de propiedad.
+
 ###Links
 
 [Pitch](http://localhost/)
