@@ -13,6 +13,7 @@ data
     let template = "";
 
     data.map((servicio) => {
+      
       template += `<div class="col-sm-12 col-md-4 my-4" category="${servicio.type}" id="container-item">
         <div class="card h-100 shadow" id="card">
             <img src="${servicio.img}" class="card-img-top h-25" alt="${servicio.name} logo">
@@ -24,8 +25,10 @@ data
             <ul class="list-group list-group-flush">
                 <li class="list-group-item fw-bold">Precio mensual: $${servicio.month_price} MXN</li>
                 <li class="list-group-item">Prueba gratis: ${servicio.free_trial} días</li>
-                <li class="list-group-item"> 
-                <div class="accordion accordion-flush" id="accordionFlushExample">
+                
+              </li>
+            </ul>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse${servicio.id}" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -34,13 +37,11 @@ data
                     </h2>
                     <div id="flush-collapse${servicio.id}" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                    
+                      <p>${servicio.membership[0].name} <b>$${servicio.membership[0].price} MXN</b></p>
                     </div>
                     </div>
                     </div>
                 </div>
-              </li>
-            </ul>
             <div class="card-footer text-center">
                 <a href="${servicio.link}" class="btn btn-primary">Ir al sitio</a>
              </div>
@@ -50,9 +51,9 @@ data
     });
     container.innerHTML = template;
   });
+
 window.addEventListener("load", function () {
   const container_item = document.querySelectorAll("#container-item");
-
   // filtrar
   // category_all.classList.add("active");
 
@@ -61,15 +62,12 @@ window.addEventListener("load", function () {
       let item_category = this.getAttribute("category");
       container_item.forEach((c) => {
         c.style.display = "none";
-        
-        if (
-          c.getAttribute("category") === item_category)
-           {
+
+        if (c.getAttribute("category") === item_category) {
           c.style.display = "flex";
-          }else if (item_category === 'all') {
+        } else if (item_category === "all") {
           c.style.display = "flex";
-            
-          }
+        }
       });
     });
   });
