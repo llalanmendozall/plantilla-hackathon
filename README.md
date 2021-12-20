@@ -7,6 +7,7 @@
 ### TCO (costo total de propiedad)
 - Costo total de propiedad.
 - Over 1 year(s) with Microsoft Azure, your estimated cost savingscould be as much asUSD 3,876.
+- USD 323 al mes
 
 
 ### Links
