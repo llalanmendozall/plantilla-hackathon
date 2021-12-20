@@ -1,511 +1,513 @@
 [
-    {   "id":1,
-        "name":"Blim TV",
-        "img":"assets/img/blim.png",
-        "type":"video",
-        "description":"Blim TV es un servicio por suscripción a la carta en streaming de vídeo bajo demanda mexicana, ofrecido en línea por Televisa mediante una conexión vía internet.También ofrece más de 30 canales en vivo de noticias, deportes, música, películas y más. Servicio disponible en México únicamente.",
-        "month_price":109,
-        "membership":[
-            {
-                "name":"1 mes",
-                "price": 109,
-                "devices":"ilimitado"
-            },
-            {
-                "name":"6 meses",
-                "price": 549,
-                "devices":"ilimitado"
-            },
-            {
-                "name":"12 meses",
-                "price": 999,
-                "devices":"ilimitado"
-            }
-        ], 
-        "free_trial":30,
-        "contact":"ayuda@blim.com",
-        "company":"Televisa Inc",
-        "link":"https://www.blim.com/inicio"
-    },
-    {
-        "id":2,
-        "name":"YouTube Premium",
-        "img":"assets/img/ytp.png",
-        "type":"video",
-        "description":"YouTube Premium (anteriormente YouTube Red) es un servicio de suscripción de transmisión de pago para YouTube que proporciona transmisión sin publicidad de todos los vídeos alojados en YouTube, contenido original exclusivo producido en colaboración con los principales creadores del sitio, así como reproducción sin conexión y reproducción de videos de fondo en dispositivos móviles.",
-        "month_price":119,
-        "membership":[
-            {
-                "name":"Plan Basico (1 Mes)",
-                "price": 119,
-                "devices":1
-            },
-            {
-                "name":"Plan Familiar (1 Mes)",
-                "price": 179,
-                "devices":5
-            },
-            {
-                "name":"Plan Estudiante (1 Mes)",
-                "price": 69,
-                "devices":1
-            }
-        ], 
-        "free_trial":30,
-        "contact":"https://support.google.com/youtube/?hl=es",
-        "company":"Google Inc.",
-        "link":"https://www.youtube.com/premium"
-    },
-    {
-        "id":3,
-        "name":"Plataforma Cine",
-        "img":"assets/img/Plataforma_cine.jpg",
-        "type":"video",
-        "description":"Plataforma Cine es una nueva opción dedicada a la oferta de producciones cinematográficas nacionales o internacionales, vía un servicio streaming en la modalidad de RENTA y ofrecera además un canal para disfruta eventos en vivo  o pregrabados. Todo lo del cine y la industria cinematográfica.",
-        "month_price":0,
-        "membership":[
-            {
-                "name":"Renta de peliculas",
-                "price": 25,
-                "devices":1
-            }
-        ], 
-        "free_trial":30,
-        "contact":"plataformacinemx@gmail.com",
-        "company":"Plataforma Cine",
-        "link":"https://www.plataformacine.com/index.html"
-    },
-    {   "id":4,
-        "name":"Casa Caníbal",
-        "img":"assets/img/cc-logo-g.svg",
-        "type":"video",
-        "description":"Casa Caníbal es un espacio para la experimentación y la creación colectiva y colaborativa, un lugar de encuentro, de activación, de intercambio y de debate, de cuestionamientos sobre las ideas, procesos y metodologías, un espacio doméstico y colectivo a la vez.",
-        "month_price":0,
-        "membership":[
-            {
-                "name":"Renta de peliculas",
-                "price": 25,
-                "devices":1
-            },
-            {
-                "name":"Compra de peliculas",
-                "price": 88,
-                "devices":1
-            }
-        ], 
-        "free_trial":30,
-        "contact":"https://www.mowies.com/site/es/soporte-2/",
-        "company":"Mowies Inc",
-        "link":"https://casacanibal.mowies.com/"
-    },
-    {   
-        "id":5,
-        "name":"Star+",
-        "img":"assets/img/Star+.png",
-        "type":"video",
-        "description":"Star+ es un servicio de streaming propiedad de The Walt Disney Company. Fue lanzado el 31 de agosto del 2021 y se encuentra disponible para Latinoamérica.",
-        "month_price":249,
-        "membership":[
-            {
-                "name":"Combo Diney+ y Star+ (1 mes)",
-                "price": 249,
-                "devices":1
-            },
-            {
-                "name":"Plan básico (1 mes)",
-                "price": 199,
-                "devices":1
-            },
-            {
-                "name":"Plan anual (12 meses)",
-                "price": 1999,
-                "devices":1
-            }
-        ], 
-        "free_trial":30,
-        "contact":"https://help.starplus.com/starplus_hc ",
-        "company":"Disney Inc",
-        "link":"https://www.starplus.com/es-mx"
-    },
-    {
-        "id":6,
-        "name":"Filmin Latino",
-        "img":"assets/img/Filmin Latino.jpg",
-        "type":"video",
-        "description":"En FilminLatino ofrecen un amplio catálogo de largometrajes de ficción, documentales, clásicos, cortometrajes, series, y películas para niños. Las películas solo se pueden ver en territorio mexicano.",
-        "month_price":69,
-        "membership":[
-            {
-                "name":"Plan de 1 mes",
-                "price": 69,
-                "devices":"ilimitado"
-            },
-            {
-                "name":"Plan de 6 meses",
-                "price": 390,
-                "devices":"ilimitado"
-            }
-        ], 
-        "free_trial":30,
-        "contact":"contacto@filminlatino.mx",
-        "company":"IMCINE",
-        "link":"https://www.filminlatino.mx/"
-    },
-    {   "id":7,
-        "name":"Apple TV+",
-        "img":"assets/img/Apple TV+.png",
-        "type":"video",
-        "description":"Apple TV+ es un servicio OTT de televisión web de vídeo bajo demanda por suscripción sin publicidad anunciado por Apple Inc. que debutó el 1 de noviembre de 2019.Fue anunciado durante su Evento especial de Apple del 25 de marzo en el Steve Jobs Theatre.",
-        "month_price":69,
-        "membership":[
-            {
-                "name":"Plan gratuito (3 meses) en la compra de un dispositivo Apple",
-                "price": 0,
-                "devices":1
-            },
-            {
-                "name":"Plan básico (1 mes)",
-                "price": 69,
-                "devices":1
-            }
-        ], 
-        "free_trial":30,
-        "contact":"https://www.apple.com/mx/contact/",
-        "company":"Apple",
-        "link":"https://www.apple.com/mx/apple-tv-plus/"
-    },
-    {
-        "id":8,
-        "name":"Paramount+",
-        "img":"assets/img/Paramount+.png",
-        "type":"video",
-        "description":"Paramount+ es un servicio de suscripción de video a la carta en streaming propiedad y operado por ViacomCBS Streaming, una filial de ViacomCBS. Ofrece contenido original, contenido recién emitido en las propiedades de transmisión de CBS y contenido de la biblioteca ViacomCBS.",
-        "month_price":79,
-        "membership":[
-            {
-                "name":"Plan Básico (1 Mes)",
-                "price": 79,
-                "devices":1
-            }
-        ], 
-        "free_trial":30,
-        "contact":"https://support.paramountplus.com/s/?language=es_MX",
-        "company":"Paramount",
-        "link":"https://www.paramountplus.com/mx/"
-    },
-    {
-        "id":9,
-        "name":"Claro Video",
-        "img":"assets/img/Claro Video.jpg",
-        "type":"video",
-        "description":"Claro Video es una plataforma de streaming que ofrece un servicio de suscripción de video bajo demanda, propiedad de América Móvil y desarrollada por DLA Inc., y que está disponible en 14 países latinoamericanos.",
-        "month_price":99,
-        "membership":[
-            {
-                "name":"Plan Básico (1 Mes)",
-                "price": 99,
-                "devices":1
-            },
-            {
-                "name":"Renta de algún título",
-                "price": 49,
-                "devices":1
-            },
-            {
-                "name":"Compra de algún título",
-                "price": 99,
-                "devices":"ilimitado"
-            },
-            {
-                "name":"Plan anual",
-                "price": 1149,
-                "devices":3
-            }
-        ], 
-        "free_trial":30,
-        "contact":"800 252 9999",
-        "company":"DLA Inc",
-        "link":"https://www.clarovideo.com/"
-    },
-    {
-        "id":10,
-        "name":"Cinépolis Klic",
-        "img":"assets/img/Cinépolis Klic.jpg",
-        "type":"video",
-        "description":"Cinépolis KLIC es una plataforma de video vía streaming para que puedas ver tus películas favoritas en todo tipo de dispositivos. Es como un verdadero sistema de cine en casa, el lugar a donde llegan los filmes más populares poco tiempo después de haber estado en la pantalla grande.",
-        "month_price":0,
-        "membership":[
-            {
-                "name":"Renta de peliculas (precio mínimo)",
-                "price": 25,
-                "devices":"ilimitado"
-            },
-            {
-                "name":"Compra de peliculas (precio mínimo)",
-                "price": 80,
-                "devices":"ilimitado"
-            }
-        ], 
-        "free_trial":0,
-        "contact":"ayudaklic@cinepolis.com",
-        "company":"Cinépolis",
-        "link":"https://www.cinepolisklic.com/"
-    },
-    {
-        "id":11,
-        "name":"Disney+",
-        "img":"assets/img/Disney+.svg",
-        "type":"video",
-        "description": "Disney+ es una plataforma streaming propiedad de la división de Distribución de Medios y Entretenimiento de The Walt Disney Company y gestionado por la misma.", 
-        "month_price":159,
-        "membership":[
-            {
-                "name":"Plan básico",
-                "price": 159,
-                "devices":4
-            },
-            {
-                "name":"Plan Anual",
-                "price": 1599,
-                "devices":4
-            }
-        ], 
-        "free_trial":0,
-        "contact":"800 600 828",
-        "company":"Disney",
-        "link":"https://www.disneyplus.com/"
-    },
-    {
-        "id":12,
-        "name":"Netflix",
-        "img":"assets/img/Netflix_Logo_RGB.png",
-        "type":"video",
-        "description": "Netflix, Inc. es una empresa de entretenimiento y un servicio por suscripción a la carta en streaming estadounidense que opera a nivel mundial y cuyo servicio principal es la distribución de contenidos audiovisuales a través de una plataforma en línea o servicio de video bajo demanda por streaming.",
-        "month_price":129,
-        "membership":[
-            {
-                "name":"Plan básico (1 mes)",
-                "price": 139,
-                "devices":1
-            },
-            {
-                "name":"Plan Estándar (1 mes)",
-                "price": 219,
-                "devices":2
-            },
-            {
-                "name":"Plan Premium (1 mes)",
-                "price": 299,
-                "devices":4
-            }
-        ], 
-        "free_trial":7,
-        "contact":"800 522 9957",
-        "company":"Netflix",
-        "link":"https://www.netflix.com/mx/"
-    },
-    {
-        "id":13,
-        "name":"HBO Max",
-        "img":"assets/img/HBO Max.jpg",
-        "type":"video",
-        "description": "HBO Max es un servicio de streaming propiedad de WarnerMedia, una división de AT&T. Se lanzó en Estados Unidos el 27 de mayo de 2020, en América Latina y el Caribe el 29 de junio de 2021 y en Andorra, España y los países nórdicos el 26 de octubre de 2021.",
-        "month_price":99,
-        "membership":[
-            {
-                "name":"Plan estándar (1 mes)",
-                "price": 149,
-                "devices":5
-            },
-            {
-                "name":"Plan móvil (1 mes)",
-                "price": 99,
-                "devices":1
-            }
-        ], 
-        "free_trial":0,
-        "contact":"https://help.hbomax.com/mx",
-        "company":"AT&T",
-        "link":"https://www.hbomax.com/mx/es"
-    },
-    {
-        "id":14,
-        "name":"Mubi",
-        "img":"assets/img/Mubi.png",
-        "type":"video",
-        "description": "MUBI es un distribuidor, productor y servicio de streaming basado en la suscripción que ofrece una selección curada de películas.​ MUBI también alberga una base de datos de la industria cinematográfica y una revista en línea llamada La Libreta. MUBI tiene una colección de películas en constante rotación.",
-        "month_price":99,
-        "membership":[
-            {
-                "name":"Plan básico (1 mes)",
-                "price": 129,
-                "devices":"ilimitado"
-            },
-            {
-                "name":"Plan anual (12 mes)",
-                "price": 948,
-                "devices":"ilimitado"
-            },
-            {
-                "name":"Plan estudiantil (1 mes)",
-                "price": 79,
-                "devices":"ilimtado"
-            }
-        ], 
-        "free_trial":7,
-        "contact":"support@mubi.com",
-        "company":"Mubi",
-        "link":"https://mubi.com/es"
-    },
-    {
-        "id":15,
-        "name":"Amazon Prime Video",
-        "img":"assets/img/Amazon Prime Video.jpg",
-        "type":"video",
-        "description": "Amazon Prime Video, también comercializado como Prime Video, es un servicio de suscripción de video a la carta en streaming, disponible en retransmisión en directo, creado y gestionado por Amazon. La plataforma ofrece miles de títulos sin coste adicional a la afiliación mensual o anual a Prime Video.",
-        "month_price":99,
-        "membership":[
-            {
-                "name":"Plan básico (1 mes)",
-                "price": 99,
-                "devices":1
-            },
-            {
-                "name":"Plan anual (12 mes)",
-                "price": 899,
-                "devices":1
-            }
-        ], 
-        "free_trial":30,
-        "contact":"https://www.primevideo.com/help/",
-        "company":"Amazon",
-        "link":"https://www.primevideo.com/"
-    },
-    {
-        "id":16,
-        "name":"Curiosity Stream",
-        "img":"assets/img/Curiosity Stream.jpg",
-        "type":"video",
-        "description": "CuriosityStream es un servicio de transmisión de video bajo demanda de documentales por suscripción estadounidense. Entrega exclusivamente documentales y series de no-ficción sobre ciencia, tecnología, historia y naturaleza.​",
-        "month_price":20,
-        "membership":[
-            {
-                "name":"Plan básico (1 mes)",
-                "price": 20,
-                "devices":"ilimitado"
-            },
-            {
-                "name":"Plan anual HD (12 mes)",
-                "price": 240,
-                "devices":"ilimitado"
-            },
-            {
-                "name":"Plan anual 4K (12 mes)",
-                "price": 849,
-                "devices":"ilimitado"
-            },
-            {
-                "name":"Plan de por vida",
-                "price": 3099,
-                "devices":"ilimitado"
-            }
-        ],
-        "free_trial":0,
-        "contact":"help@CuriosityStream.com",
-        "company":"Discovery Channel",
-        "link":"https://curiositystream.com/"
-    },
-    {
-        "id":17,
-        "name":"Xbox Game Pass",
-        "img":"assets/img/xbox-game-pass-logo.png",
-        "type":"videojuegos",
-        "description": "Sumérgete en una biblioteca de más de 100 juegos de alta calidad. Disfruta de los beneficios de Xbox Live Gold y EA Play, y juega en varios dispositivos desde la nube cuando te unas a Xbox Game Pass Ultimate.",
-        "month_price":149,
-        "membership":[
-            {
-                "name":"Ultimate",
-                "price": 229,
-                "devices":"ilimitado"
-            },
-            {
-                "name":"Consola",
-                "price": 149,
-                "devices":"ilimitado"
-            },
-            {
-                "name":"PC",
-                "price": 149,
-                "devices":"ilimitado"
-            }
-        ],
-        "free_trial":0,
-        "contact":"https://support.xbox.com/es-MX/?xr=footnav",
-        "company":"Microsoft",
-        "link":"https://www.xbox.com/es-MX/xbox-game-pass#join"
-    },
-    {
-        "id":16,
-        "name":"Spotify",
-        "img":"assets/img/spotify.jpg",
-        "type":"music",
-        "description": "Disfruta de música sin anuncios, reproducción en modo offline y mucho más. Cancela cuando quieras.",
-        "month_price":15,
-        "membership":[
-        {
-        "name":"Spotify Free",
-        "price": 0,
-        "devices":"ilimitado"
-        },
-        {
-        "name":"Individual (1 mes)",
-        "price": 115,
-        "devices":"ilimitado"
-        },
-        {
-        "name":"Duo ( 1 mes)",
-        "price": 149,
-        "devices":"2"
-        },
-        {
-        "name":"Familiar",
+  {
+    "id": 1,
+    "name": "Blim TV",
+    "img": "assets/img/blim.png",
+    "type": "video",
+    "description": "Blim TV es un servicio por suscripción a la carta en streaming de vídeo bajo demanda mexicana, ofrecido en línea por Televisa mediante una conexión vía internet.También ofrece más de 30 canales en vivo de noticias, deportes, música, películas y más. Servicio disponible en México únicamente.",
+    "month_price": 109,
+    "membership": [
+      {
+        "name": "1 mes",
+        "price": 109,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "6 meses",
+        "price": 549,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "12 meses",
+        "price": 999,
+        "devices": "ilimitado"
+      }
+    ],
+    "free_trial": 30,
+    "contact": "ayuda@blim.com",
+    "company": "Televisa Inc",
+    "link": "https://www.blim.com/inicio"
+  },
+  {
+    "id": 2,
+    "name": "YouTube Premium",
+    "img": "assets/img/ytp.png",
+    "type": "video",
+    "description": "YouTube Premium (anteriormente YouTube Red) es un servicio de suscripción de transmisión de pago para YouTube que proporciona transmisión sin publicidad de todos los vídeos alojados en YouTube, contenido original exclusivo producido en colaboración con los principales creadores del sitio, así como reproducción sin conexión y reproducción de videos de fondo en dispositivos móviles.",
+    "month_price": 119,
+    "membership": [
+      {
+        "name": "Plan Basico (1 Mes)",
+        "price": 119,
+        "devices": 1
+      },
+      {
+        "name": "Plan Familiar (1 Mes)",
         "price": 179,
-        "devices":"6"
-        },
-        {
-        "name":"Estudiantes",
+        "devices": 5
+      },
+      {
+        "name": "Plan Estudiante (1 Mes)",
+        "price": 69,
+        "devices": 1
+      }
+    ],
+    "free_trial": 30,
+    "contact": "https://support.google.com/youtube/?hl=es",
+    "company": "Google Inc.",
+    "link": "https://www.youtube.com/premium"
+  },
+  {
+    "id": 3,
+    "name": "Plataforma Cine",
+    "img": "assets/img/Plataforma_Cine.jpg",
+    "type": "video",
+    "description": "Plataforma Cine es una nueva opción dedicada a la oferta de producciones cinematográficas nacionales o internacionales, vía un servicio streaming en la modalidad de RENTA y ofrecera además un canal para disfruta eventos en vivo  o pregrabados. Todo lo del cine y la industria cinematográfica.",
+    "month_price": 0,
+    "membership": [
+      {
+        "name": "Renta de peliculas",
+        "price": 25,
+        "devices": 1
+      }
+    ],
+    "free_trial": 30,
+    "contact": "plataformacinemx@gmail.com",
+    "company": "Plataforma Cine",
+    "link": "https://www.plataformacine.com/index.html"
+  },
+  {
+    "id": 4,
+    "name": "Casa Caníbal",
+    "img": "assets/img/cc-logo-g.svg",
+    "type": "video",
+    "description": "Casa Caníbal es un espacio para la experimentación y la creación colectiva y colaborativa, un lugar de encuentro, de activación, de intercambio y de debate, de cuestionamientos sobre las ideas, procesos y metodologías, un espacio doméstico y colectivo a la vez.",
+    "month_price": 0,
+    "membership": [
+      {
+        "name": "Renta de peliculas",
+        "price": 25,
+        "devices": 1
+      },
+      {
+        "name": "Compra de peliculas",
+        "price": 88,
+        "devices": 1
+      }
+    ],
+    "free_trial": 30,
+    "contact": "https://www.mowies.com/site/es/soporte-2/",
+    "company": "Mowies Inc",
+    "link": "https://casacanibal.mowies.com/"
+  },
+  {
+    "id": 5,
+    "name": "Star+",
+    "img": "assets/img/Star+.png",
+    "type": "video",
+    "description": "Star+ es un servicio de streaming propiedad de The Walt Disney Company. Fue lanzado el 31 de agosto del 2021 y se encuentra disponible para Latinoamérica.",
+    "month_price": 249,
+    "membership": [
+      {
+        "name": "Combo Diney+ y Star+ (1 mes)",
+        "price": 249,
+        "devices": 1
+      },
+      {
+        "name": "Plan básico (1 mes)",
+        "price": 199,
+        "devices": 1
+      },
+      {
+        "name": "Plan anual (12 meses)",
+        "price": 1999,
+        "devices": 1
+      }
+    ],
+    "free_trial": 30,
+    "contact": "https://help.starplus.com/starplus_hc ",
+    "company": "Disney Inc",
+    "link": "https://www.starplus.com/es-mx"
+  },
+  {
+    "id": 6,
+    "name": "Filmin Latino",
+    "img": "assets/img/Filmin Latino.jpg",
+    "type": "video",
+    "description": "En FilminLatino ofrecen un amplio catálogo de largometrajes de ficción, documentales, clásicos, cortometrajes, series, y películas para niños. Las películas solo se pueden ver en territorio mexicano.",
+    "month_price": 69,
+    "membership": [
+      {
+        "name": "Plan de 1 mes",
+        "price": 69,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "Plan de 6 meses",
+        "price": 390,
+        "devices": "ilimitado"
+      }
+    ],
+    "free_trial": 30,
+    "contact": "contacto@filminlatino.mx",
+    "company": "IMCINE",
+    "link": "https://www.filminlatino.mx/"
+  },
+  {
+    "id": 7,
+    "name": "Apple TV+",
+    "img": "assets/img/Apple TV+.png",
+    "type": "video",
+    "description": "Apple TV+ es un servicio OTT de televisión web de vídeo bajo demanda por suscripción sin publicidad anunciado por Apple Inc. que debutó el 1 de noviembre de 2019.Fue anunciado durante su Evento especial de Apple del 25 de marzo en el Steve Jobs Theatre.",
+    "month_price": 69,
+    "membership": [
+      {
+        "name": "Plan gratuito (3 meses) en la compra de un dispositivo Apple",
+        "price": 0,
+        "devices": 1
+      },
+      {
+        "name": "Plan básico (1 mes)",
+        "price": 69,
+        "devices": 1
+      }
+    ],
+    "free_trial": 30,
+    "contact": "https://www.apple.com/mx/contact/",
+    "company": "Apple",
+    "link": "https://www.apple.com/mx/apple-tv-plus/"
+  },
+  {
+    "id": 8,
+    "name": "Paramount+",
+    "img": "assets/img/Paramount+.png",
+    "type": "video",
+    "description": "Paramount+ es un servicio de suscripción de video a la carta en streaming propiedad y operado por ViacomCBS Streaming, una filial de ViacomCBS. Ofrece contenido original, contenido recién emitido en las propiedades de transmisión de CBS y contenido de la biblioteca ViacomCBS.",
+    "month_price": 79,
+    "membership": [
+      {
+        "name": "Plan Básico (1 Mes)",
+        "price": 79,
+        "devices": 1
+      }
+    ],
+    "free_trial": 30,
+    "contact": "https://support.paramountplus.com/s/?language=es_MX",
+    "company": "Paramount",
+    "link": "https://www.paramountplus.com/mx/"
+  },
+  {
+    "id": 9,
+    "name": "Claro Video",
+    "img": "assets/img/Claro Video.jpg",
+    "type": "video",
+    "description": "Claro Video es una plataforma de streaming que ofrece un servicio de suscripción de video bajo demanda, propiedad de América Móvil y desarrollada por DLA Inc., y que está disponible en 14 países latinoamericanos.",
+    "month_price": 99,
+    "membership": [
+      {
+        "name": "Plan Básico (1 Mes)",
+        "price": 99,
+        "devices": 1
+      },
+      {
+        "name": "Renta de algún título",
+        "price": 49,
+        "devices": 1
+      },
+      {
+        "name": "Compra de algún título",
+        "price": 99,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "Plan anual",
+        "price": 1149,
+        "devices": 3
+      }
+    ],
+    "free_trial": 30,
+    "contact": "800 252 9999",
+    "company": "DLA Inc",
+    "link": "https://www.clarovideo.com/"
+  },
+  {
+    "id": 10,
+    "name": "Cinépolis Klic",
+    "img": "assets/img/Cinépolis Klic.jpg",
+    "type": "video",
+    "description": "Cinépolis KLIC es una plataforma de video vía streaming para que puedas ver tus películas favoritas en todo tipo de dispositivos. Es como un verdadero sistema de cine en casa, el lugar a donde llegan los filmes más populares poco tiempo después de haber estado en la pantalla grande.",
+    "month_price": 0,
+    "membership": [
+      {
+        "name": "Renta de peliculas (precio mínimo)",
+        "price": 25,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "Compra de peliculas (precio mínimo)",
+        "price": 80,
+        "devices": "ilimitado"
+      }
+    ],
+    "free_trial": 0,
+    "contact": "ayudaklic@cinepolis.com",
+    "company": "Cinépolis",
+    "link": "https://www.cinepolisklic.com/"
+  },
+  {
+    "id": 11,
+    "name": "Disney+",
+    "img": "assets/img/Disney+.svg",
+    "type": "video",
+    "description": "Disney+ es una plataforma streaming propiedad de la división de Distribución de Medios y Entretenimiento de The Walt Disney Company y gestionado por la misma.",
+    "month_price": 159,
+    "membership": [
+      {
+        "name": "Plan básico",
+        "price": 159,
+        "devices": 4
+      },
+      {
+        "name": "Plan Anual",
+        "price": 1599,
+        "devices": 4
+      }
+    ],
+    "free_trial": 0,
+    "contact": "800 600 828",
+    "company": "Disney",
+    "link": "https://www.disneyplus.com/"
+  },
+  {
+    "id": 12,
+    "name": "Netflix",
+    "img": "assets/img/Netflix_Logo_RGB.png",
+    "type": "video",
+    "description": "Netflix, Inc. es una empresa de entretenimiento y un servicio por suscripción a la carta en streaming estadounidense que opera a nivel mundial y cuyo servicio principal es la distribución de contenidos audiovisuales a través de una plataforma en línea o servicio de video bajo demanda por streaming.",
+    "month_price": 129,
+    "membership": [
+      {
+        "name": "Plan básico (1 mes)",
+        "price": 139,
+        "devices": 1
+      },
+      {
+        "name": "Plan Estándar (1 mes)",
+        "price": 219,
+        "devices": 2
+      },
+      {
+        "name": "Plan Premium (1 mes)",
+        "price": 299,
+        "devices": 4
+      }
+    ],
+    "free_trial": 7,
+    "contact": "800 522 9957",
+    "company": "Netflix",
+    "link": "https://www.netflix.com/mx/"
+  },
+  {
+    "id": 13,
+    "name": "HBO Max",
+    "img": "assets/img/HBO Max.jpg",
+    "type": "video",
+    "description": "HBO Max es un servicio de streaming propiedad de WarnerMedia, una división de AT&T. Se lanzó en Estados Unidos el 27 de mayo de 2020, en América Latina y el Caribe el 29 de junio de 2021 y en Andorra, España y los países nórdicos el 26 de octubre de 2021.",
+    "month_price": 99,
+    "membership": [
+      {
+        "name": "Plan estándar (1 mes)",
+        "price": 149,
+        "devices": 5
+      },
+      {
+        "name": "Plan móvil (1 mes)",
+        "price": 99,
+        "devices": 1
+      }
+    ],
+    "free_trial": 0,
+    "contact": "https://help.hbomax.com/mx",
+    "company": "AT&T",
+    "link": "https://www.hbomax.com/mx/es"
+  },
+  {
+    "id": 14,
+    "name": "Mubi",
+    "img": "assets/img/Mubi.png",
+    "type": "video",
+    "description": "MUBI es un distribuidor, productor y servicio de streaming basado en la suscripción que ofrece una selección curada de películas.​ MUBI también alberga una base de datos de la industria cinematográfica y una revista en línea llamada La Libreta. MUBI tiene una colección de películas en constante rotación.",
+    "month_price": 99,
+    "membership": [
+      {
+        "name": "Plan básico (1 mes)",
+        "price": 129,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "Plan anual (12 mes)",
+        "price": 948,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "Plan estudiantil (1 mes)",
+        "price": 79,
+        "devices": "ilimtado"
+      }
+    ],
+    "free_trial": 7,
+    "contact": "support@mubi.com",
+    "company": "Mubi",
+    "link": "https://mubi.com/es"
+  },
+  {
+    "id": 15,
+    "name": "Amazon Prime Video",
+    "img": "assets/img/Amazon Prime Video.jpg",
+    "type": "video",
+    "description": "Amazon Prime Video, también comercializado como Prime Video, es un servicio de suscripción de video a la carta en streaming, disponible en retransmisión en directo, creado y gestionado por Amazon. La plataforma ofrece miles de títulos sin coste adicional a la afiliación mensual o anual a Prime Video.",
+    "month_price": 99,
+    "membership": [
+      {
+        "name": "Plan básico (1 mes)",
+        "price": 99,
+        "devices": 1
+      },
+      {
+        "name": "Plan anual (12 mes)",
+        "price": 899,
+        "devices": 1
+      }
+    ],
+    "free_trial": 30,
+    "contact": "https://www.primevideo.com/help/",
+    "company": "Amazon",
+    "link": "https://www.primevideo.com/"
+  },
+  {
+    "id": 16,
+    "name": "Curiosity Stream",
+    "img": "assets/img/Curiosity Stream.jpg",
+    "type": "video",
+    "description": "CuriosityStream es un servicio de transmisión de video bajo demanda de documentales por suscripción estadounidense. Entrega exclusivamente documentales y series de no-ficción sobre ciencia, tecnología, historia y naturaleza.​",
+    "month_price": 20,
+    "membership": [
+      {
+        "name": "Plan básico (1 mes)",
+        "price": 20,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "Plan anual HD (12 mes)",
+        "price": 240,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "Plan anual 4K (12 mes)",
+        "price": 849,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "Plan de por vida",
+        "price": 3099,
+        "devices": "ilimitado"
+      }
+    ],
+    "free_trial": 0,
+    "contact": "help@CuriosityStream.com",
+    "company": "Discovery Channel",
+    "link": "https://curiositystream.com/"
+  },
+  {
+    "id": 17,
+    "name": "Xbox Game Pass",
+    "img": "assets/img/xbox-game-pass-logo.png",
+    "type": "videojuegos",
+    "description": "Sumérgete en una biblioteca de más de 100 juegos de alta calidad. Disfruta de los beneficios de Xbox Live Gold y EA Play, y juega en varios dispositivos desde la nube cuando te unas a Xbox Game Pass Ultimate.",
+    "month_price": 149,
+    "membership": [
+      {
+        "name": "Ultimate",
+        "price": 229,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "Consola",
+        "price": 149,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "PC",
+        "price": 149,
+        "devices": "ilimitado"
+      }
+    ],
+    "free_trial": 0,
+    "contact": "https://support.xbox.com/es-MX/?xr=footnav",
+    "company": "Microsoft",
+    "link": "https://www.xbox.com/es-MX/xbox-game-pass#join"
+  },
+  {
+    "id": 17,
+    "name": "Spotify",
+    "img": "assets/img/spotify.jpg",
+    "type": "music",
+    "description": "Disfruta de música sin anuncios, reproducción en modo offline y mucho más. Cancela cuando quieras.",
+    "month_price": 15,
+    "membership": [
+      {
+        "name": "Spotify Free",
+        "price": 0,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "Individual (1 mes)",
+        "price": 115,
+        "devices": "ilimitado"
+      },
+      {
+        "name": "Duo ( 1 mes)",
+        "price": 149,
+        "devices": "2"
+      },
+      {
+        "name": "Familiar",
+        "price": 179,
+        "devices": "6"
+      },
+      {
+        "name": "Estudiantes",
         "price": 57,
-        "devices":"1"
-        }
-        ],
-        "free_trial":90,
-        "contact":"https://support.spotify.com/mx/",
-        "company":"Spotify",
-        "link":"https://www.spotify.com/mx/"
-        },
-        {
-        "id":16,
-        "name":"Deezer",
-        "img":"assets/img/deezer.jpg",
-        "type":"music",
-        "description": "Reproduce lo que te apetezca, salta canciones sin límites y crea tu propia colección de música, podcasts y mucho más.Escucha tu contenido de audio favorito en streaming sin interrupciones de anuncios.Descarga tu música y podcasts y escúchalo sin conexión. Identifica canciones o canta tus canciones favoritas gracias a funciones incorporadas como SongCatcher y las letras.",
-        "month_price":115,
-        "membership":[
-        {
-        "name":"Deezer Premium",
+        "devices": "1"
+      }
+    ],
+    "free_trial": 90,
+    "contact": "https://support.spotify.com/mx/",
+    "company": "Spotify",
+    "link": "https://www.spotify.com/mx/"
+  },
+  {
+    "id": 18,
+    "name": "Deezer",
+    "img": "assets/img/deezer.png",
+    "type": "music",
+    "description": "Reproduce lo que te apetezca,salta canciones sin límites y crea tu propia colección de música, podcasts y mucho más.",
+    "month_price": 115,
+    "membership": [
+      {
+        "name": "Deezer Premium",
         "price": 115,
-        "devices":"ilimitado"
-        },
-        {
-        "name":"Anual (12 meses)",
+        "devices": "ilimitado"
+      },
+      {
+        "name": "Anual (12 meses)",
         "price": 115,
-        "devices":"ilimitado"
-        }
-        ],
-        "free_trial":30,
-        "contact":"https://es.deezercommunity.com/",
-        "company":"Insided",
-        "link":"https://www.deezer.com/es/offers/premium"
-        }
-    
+        "devices": "ilimitado"
+      }
+    ],
+    "free_trial": 30,
+    "contact": "https://es.deezercommunity.com/",
+    "company": "Insided",
+    "link": "https://www.deezer.com/es/offers/premium"
+  }
 ]
